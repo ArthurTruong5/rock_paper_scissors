@@ -100,7 +100,7 @@ def welcome
     sleep(1)
     puts "Printing . ."
     sleep(0.5)
-    puts "You Bought #{FOOD[:pho]} Pho"
+    puts "You Bought #{FOOD[:pho]} Pho" if FOOD[:pho] != 0 # remember dis
     sleep(0.5)
     puts "You Bought #{FOOD[:ban_xiao]} Ban Xiao"
     sleep(0.5)
